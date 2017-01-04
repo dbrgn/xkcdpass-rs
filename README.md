@@ -8,6 +8,8 @@ word list (9903 common English words).
 With the default of 4 words, there are 9903^4 = 9617608981609281 possible word
 combinations, which corresponds to about 53 bits of entropy.
 
+https://xkcd.com/936/
+
 ## Installing
 
 Install via cargo...
