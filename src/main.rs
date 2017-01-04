@@ -3,6 +3,7 @@ extern crate rand;
 extern crate rustc_serialize;
 #[macro_use] extern crate lazy_static;
 
+use std::process;
 use rand::distributions::{IndependentSample, Range};
 use docopt::Docopt;
 
@@ -30,7 +31,10 @@ struct Args {
 }
 
 fn get_random_word() -> &'static str {
-    let mut rng = rand::thread_rng();
+    let mut rng = rand::os::OsRng::new().unwrap_or_else(|e| {
+        println!("Could not initialize random number generator: {}", e);
+        process::exit(1);
+    });
     let offset = BETWEEN.ind_sample(&mut rng);
     WORDLIST.lines().nth(offset).expect(&format!("Invalid offset: {}", offset))
 }
