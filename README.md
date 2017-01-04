@@ -1,5 +1,7 @@
 # xkcdpass - XKCD Style Password Generator
 
+[![Crates.io][crates-io-badge]][crates-io]
+
 Generate passwords made up by four (or any other number of) random words from a
 word list (9903 common English words).
 
@@ -36,3 +38,7 @@ Licensed under either of
    http://www.apache.org/licenses/LICENSE-2.0)
  * MIT license ([LICENSE-MIT](LICENSE-MIT) or
    http://opensource.org/licenses/MIT) at your option.
+
+<!-- Badges -->
+[crates-io]: https://crates.io/crates/xkcdpass
+[crates-io-badge]: https://img.shields.io/crates/v/xkcdpass.svg
