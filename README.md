@@ -22,8 +22,8 @@ Install via cargo...
 
 ## Usage
 
-    $ xkcdpass -c 6
-    fault mae sectors pi terror distances
+    $ xkcdpass
+    pleased excellence space strain
     $ xkcdpass -c 6
     simplified far shade warranty carmen messages
 
