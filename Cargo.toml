@@ -2,6 +2,10 @@
 name = "xkcdpass"
 version = "0.1.0"
 authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+repository = "https://github.com/dbrgn/xkcdpass-rs/"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "Generate XKCD style passwords made up by four (or any other number of) random english words from a word list."
 
 [dependencies]
 rand = "0.3"
