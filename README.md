@@ -1,10 +1,10 @@
 # xkcdpass - XKCD Style Password Generator
 
-Generate passwords made up by four random words from a word list (9903 common
-English words).
+Generate passwords made up by four (or any other number of) random words from a
+word list (9903 common English words).
 
-This word list allows for 9903⁴ possible combinations, which corresponds to
-about 53 bits of entropy.
+With the default of 4 words, there are 9903^4 = 9617608981609281 possible word
+combinations, which corresponds to about 53 bits of entropy.
 
 ## Word List
 
