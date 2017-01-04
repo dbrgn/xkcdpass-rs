@@ -29,7 +29,7 @@ struct Args {
     flag_c: usize,
 }
 
-fn get_random_word<'a>() -> &'a str {
+fn get_random_word() -> &'static str {
     let mut rng = rand::thread_rng();
     let offset = BETWEEN.ind_sample(&mut rng);
     WORDLIST.lines().nth(offset).expect(&format!("Invalid offset: {}", offset))
