@@ -1,6 +1,6 @@
 [package]
 name = "xkcdpass"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Danilo Bargen <mail@dbrgn.ch>"]
 repository = "https://github.com/dbrgn/xkcdpass-rs/"
 license = "MIT/Apache-2.0"
