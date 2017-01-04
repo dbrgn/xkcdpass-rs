@@ -45,7 +45,7 @@ fn main() {
                             .unwrap_or_else(|e| e.exit());
 
     let count = args.flag_c;
-    for _ in 0..count-1 {
+    for _ in 1..count {
         print!("{} ", get_random_word());
     }
     println!("{}", get_random_word());
