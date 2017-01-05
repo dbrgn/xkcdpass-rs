@@ -9,7 +9,6 @@ description = "Generate XKCD style passwords made up by four (or any other numbe
 
 [dependencies]
 rand = "0.3"
-lazy_static = "0.2"
 docopt = "0.7"
 rustc-serialize = "0.3"
 

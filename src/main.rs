@@ -1,8 +1,6 @@
 extern crate docopt;
 extern crate rand;
 extern crate rustc_serialize;
-#[macro_use]
-extern crate lazy_static;
 
 use std::{process, io, path};
 use std::fs::File;
@@ -24,7 +22,6 @@ Options:
 ";
 
 static DEFAULT_WORDLIST: &'static str = include_str!("wordlist.txt");
-lazy_static!{}
 
 #[derive(Debug, RustcDecodable)]
 struct Args {
