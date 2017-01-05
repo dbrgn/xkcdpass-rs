@@ -8,6 +8,8 @@ use std::io::Read;
 use rand::distributions::{IndependentSample, Range};
 use docopt::Docopt;
 
+const NAME: &'static str = "xkcdpass";
+const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 const USAGE: &'static str = "
 Generate XKCD style passwords.
 
@@ -27,6 +29,7 @@ static DEFAULT_WORDLIST: &'static str = include_str!("wordlist.txt");
 struct Args {
     flag_c: usize,
     flag_w: Option<Vec<String>>,
+    flag_v: bool,
 }
 
 fn load_wordlist(path: String) -> io::Result<String> {
@@ -57,6 +60,12 @@ fn main() {
     let args: Args = Docopt::new(USAGE)
         .and_then(|d| d.decode())
         .unwrap_or_else(|e| e.exit());
+
+    // Show version and exit
+    if args.flag_v {
+        println!("{} v{}", NAME, VERSION);
+        process::exit(0);
+    }
 
     let lists = if let Some(lists) = args.flag_w {
         load_wordlists(lists).unwrap_or_else(|e| {
