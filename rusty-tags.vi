@@ -1,0 +1,1157 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+AVAILABLE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        static AVAILABLE: AtomicBool = ATOMIC_BOOL_INIT;$/;"	c
+Animal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    enum Animal {$/;"	g
+ArbitraryType	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        struct ArbitraryType(u32);$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cargo.rs	/^struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cp.rs	/^struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/decode.rs	/^struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/optional_command.rs	/^struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/verbose_multiple.rs	/^struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^    struct Args {$/;"	s
+Args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^struct Args {$/;"	s
+Argument	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^pub enum Argument {$/;"	g
+Argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^pub struct Argv<'a> {$/;"	s
+ArgvMap	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^pub struct ArgvMap {$/;"	s
+ArgvToken	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^struct ArgvToken {$/;"	s
+Array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub type Array = Vec<Json>;$/;"	T
+AsJson	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct AsJson<'a, T: 'a> { inner: &'a T }$/;"	s
+AsPrettyJson	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct AsPrettyJson<'a, T: 'a> { inner: &'a T, indent: Option<u32> }$/;"	s
+AsciiGenerator	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct AsciiGenerator<'a, R:'a> {$/;"	s
+Atom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^pub enum Atom {$/;"	g
+BOOL	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    type BOOL = i32;$/;"	T
+BUF	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    const BUF: &'static str = "                ";$/;"	c
+BYTE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    type BYTE = u8;$/;"	T
+Builder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct Builder<T> {$/;"	s
+BuilderError	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub type BuilderError = ParserError;$/;"	T
+CHACHA_ROUNDS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^const CHACHA_ROUNDS: u32 = 20; \/\/ Cryptographically secure from 8 upwards as of this writing$/;"	c
+CHARS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^static CHARS: &'static[u8] = b"0123456789abcdef";$/;"	c
+CHAR_MASK	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^        const CHAR_MASK: u32 = 0x001f_ffff;$/;"	c
+CHECKER	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        static CHECKER: Once = ONCE_INIT;$/;"	c
+CRYPT_SILENT	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    const CRYPT_SILENT: DWORD = 0x00000040;$/;"	c
+CRYPT_VERIFYCONTEXT	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    const CRYPT_VERIFYCONTEXT: DWORD = 0xF0000000;$/;"	c
+ChaChaRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^pub struct ChaChaRng {$/;"	s
+CharacterSet	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub enum CharacterSet {$/;"	g
+ChatEvent	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        enum ChatEvent {$/;"	g
+ChiSquared	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^pub struct ChiSquared {$/;"	s
+ChiSquaredRepr	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^enum ChiSquaredRepr {$/;"	g
+Closed01	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct Closed01<F>(pub F);$/;"	s
+Command	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cargo.rs	/^enum Command {$/;"	g
+Command	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/optional_command.rs	/^enum Command { A, B, C, Unknown(String), None }$/;"	g
+Config	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub struct Config {$/;"	s
+ConstRand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    struct ConstRand(usize);$/;"	s
+ConstRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    struct ConstRng { i: u64 }$/;"	s
+ConstantRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    struct ConstantRng(u64);$/;"	s
+Counter	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    struct Counter {$/;"	s
+CountingRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    struct CountingRng { i: u32 }$/;"	s
+CryptAcquireContextA	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn CryptAcquireContextA(phProv: *mut HCRYPTPROV,$/;"	f
+CryptGenRandom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn CryptGenRandom(hProv: HCRYPTPROV,$/;"	f
+CryptReleaseContext	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn CryptReleaseContext(hProv: HCRYPTPROV, dwFlags: DWORD) -> BOOL;$/;"	f
+DECODE_TABLE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^const DECODE_TABLE: [u8; 256] = [$/;"	c
+DEFAULT_GENERATION_THRESHOLD	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^const DEFAULT_GENERATION_THRESHOLD: u64 = 32 * 1024;$/;"	c
+DWORD	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    type DWORD = u32;$/;"	T
+Decodable	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait Decodable: Sized {$/;"	t
+DecodeEnum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    enum DecodeEnum {$/;"	g
+DecodeResult	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub type DecodeResult<T> = Result<T, DecoderError>;$/;"	T
+DecodeStruct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    struct DecodeStruct {$/;"	s
+Decoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^pub struct Decoder {$/;"	s
+Decoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct Decoder {$/;"	s
+Decoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait Decoder {$/;"	t
+DecoderError	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum DecoderError {$/;"	g
+DecoderHelpers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait DecoderHelpers: Decoder {$/;"	t
+DecoderItem	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^struct DecoderItem {$/;"	s
+Docopt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^pub struct Docopt {$/;"	s
+EMPTY	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^static EMPTY: ChaChaRng = ChaChaRng {$/;"	c
+EMPTY	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^static EMPTY: IsaacRng = IsaacRng {$/;"	c
+EMPTY_64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^static EMPTY_64: Isaac64Rng = Isaac64Rng {$/;"	c
+EQUALS_CODE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^const EQUALS_CODE: u8 = 0xFE;$/;"	c
+Encodable	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait Encodable {$/;"	t
+EncodeResult	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub type EncodeResult<T> = Result<T, EncoderError>;$/;"	T
+Encoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct Encoder<'a> {$/;"	s
+Encoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait Encoder {$/;"	t
+EncoderError	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum EncoderError {$/;"	g
+EncoderHelpers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^pub trait EncoderHelpers: Encoder {$/;"	t
+EncodingFormat	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^enum EncodingFormat {$/;"	g
+Enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        enum Enum {$/;"	g
+Err	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    type Err = ParserError;$/;"	T
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    type Error = Error;$/;"	T
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^pub enum Error {$/;"	g
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    type Error = DecoderError;$/;"	T
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    type Error = EncoderError;$/;"	T
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        type Error = ();$/;"	T
+Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    type Error;$/;"	T
+ErrorCode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum ErrorCode {$/;"	g
+Exp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^pub struct Exp {$/;"	s
+Exp1	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^pub struct Exp1(pub f64);$/;"	s
+FILL_BYTES_V_LEN	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    const FILL_BYTES_V_LEN: usize = 13579;$/;"	c
+FisherF	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^pub struct FisherF {$/;"	s
+FloatStruct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    struct FloatStruct {$/;"	s
+Foo	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        struct Foo {$/;"	s
+Foo	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        struct Foo<P> {$/;"	s
+FormatShim	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^struct FormatShim<'a, 'b: 'a> {$/;"	s
+FromBase64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub trait FromBase64 {$/;"	t
+FromBase64Error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub enum FromBase64Error {$/;"	g
+FromHex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^pub trait FromHex {$/;"	t
+FromHexError	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^pub enum FromHexError {$/;"	g
+GEN_ASCII_STR_CHARSET	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        const GEN_ASCII_STR_CHARSET: &'static [u8] =$/;"	c
+Gamma	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^pub struct Gamma {$/;"	s
+GammaLargeShape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^struct GammaLargeShape {$/;"	s
+GammaRepr	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^enum GammaRepr {$/;"	g
+GammaSmallShape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^struct GammaSmallShape {$/;"	s
+Generator	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct Generator<'a, T, R:'a> {$/;"	s
+HCRYPTPROV	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    type HCRYPTPROV = usize;$/;"	T
+INTERFACE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    const INTERFACE: &'static [u8] = b"nacl-irt-random-0.1\\0";$/;"	c
+INVALID_CODE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^const INVALID_CODE: u8 = 0xFF;$/;"	c
+IndependentSample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^pub trait IndependentSample<Support>: Sample<Support> {$/;"	t
+Inner	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    struct Inner {$/;"	s
+InternalStackElement	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^enum InternalStackElement {$/;"	g
+Isaac64Rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^pub struct Isaac64Rng {$/;"	s
+IsaacRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^pub struct IsaacRng {$/;"	s
+Item	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    type Item = T;$/;"	T
+Item	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    type Item = char;$/;"	T
+Item	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    type Item = JsonEvent;$/;"	T
+Json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum Json {$/;"	g
+JsonEvent	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum JsonEvent {$/;"	g
+KEY_WORDS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^const KEY_WORDS    : usize =  8; \/\/ 8 words for the 256-bit key$/;"	c
+LOWER_MASK	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        const LOWER_MASK: u32 = 0x7FFFFF;$/;"	c
+LOWER_MASK	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        const LOWER_MASK: u64 = 0xFFFFFFFFFFFFF;$/;"	c
+LPCSTR	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    type LPCSTR = *const i8;$/;"	T
+LogNormal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^pub struct LogNormal {$/;"	s
+MIDPOINT	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        const MIDPOINT: usize =  RAND_SIZE_64 \/ 2;$/;"	c
+MIDPOINT	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        const MIDPOINT: usize = RAND_SIZE_USIZE \/ 2;$/;"	c
+MIME	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub static MIME: Config =$/;"	c
+MP_VEC	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        const MP_VEC: [(usize, usize); 2] = [(0,MIDPOINT), (MIDPOINT, 0)];$/;"	c
+MState	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^struct MState {$/;"	s
+Matcher	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^struct Matcher<'a, 'b:'a> {$/;"	s
+MyDecoder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    struct MyDecoder;$/;"	s
+MyRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    pub struct MyRng<R> { inner: R }$/;"	s
+MyRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    type MyRng = ReseedingRng<Counter, ReseedWithDefault>;$/;"	T
+NEWLINE_CODE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^const NEWLINE_CODE: u8 = 0xFD;$/;"	c
+NR_GETRANDOM	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        const NR_GETRANDOM: libc::c_long = 278;$/;"	c
+NR_GETRANDOM	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        const NR_GETRANDOM: libc::c_long = 318;$/;"	c
+NR_GETRANDOM	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        const NR_GETRANDOM: libc::c_long = 355;$/;"	c
+NR_GETRANDOM	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        const NR_GETRANDOM: libc::c_long = 384;$/;"	c
+NaClIRTRandom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    struct NaClIRTRandom {$/;"	s
+Newline	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub enum Newline {$/;"	g
+Normal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^pub struct Normal {$/;"	s
+Object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub type Object = BTreeMap<string::String, Json>;$/;"	T
+Open01	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct Open01<F>(pub F);$/;"	s
+OptionData	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    struct OptionData {$/;"	s
+Options	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^pub struct Options {$/;"	s
+OsRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    pub struct OsRng {$/;"	s
+OsRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    pub struct OsRng(extern fn(dest: *mut libc::c_void,$/;"	s
+OsRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    pub struct OsRng;$/;"	s
+OsRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^pub struct OsRng(imp::OsRng);$/;"	s
+OsRngInner	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    enum OsRngInner {$/;"	g
+Outer	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    struct Outer {$/;"	s
+Output	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    type Output = Json;$/;"	T
+PRE_ALLOCATE_CAP	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/lib.rs	/^    const PRE_ALLOCATE_CAP: usize = 0x100000;$/;"	c
+PROV_RSA_FULL	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    const PROV_RSA_FULL: DWORD = 1;$/;"	c
+Parser	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^pub struct Parser {$/;"	s
+Parser	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct Parser<T> {$/;"	s
+ParserError	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum ParserError {$/;"	g
+ParserState	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^enum ParserState {$/;"	g
+PatParser	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^struct PatParser<'a> {$/;"	s
+Pattern	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^enum Pattern {$/;"	g
+PrettyJson	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct PrettyJson<'a> { inner: &'a Json }$/;"	s
+RAND_BENCH_N	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^const RAND_BENCH_N: u64 = 1000;$/;"	c
+RAND_SIZE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^const RAND_SIZE: u32 = 1 << RAND_SIZE_LEN;$/;"	c
+RAND_SIZE_64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^const RAND_SIZE_64: usize = 1 << RAND_SIZE_64_LEN;$/;"	c
+RAND_SIZE_64_LEN	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^const RAND_SIZE_64_LEN: usize = 8;$/;"	c
+RAND_SIZE_LEN	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^const RAND_SIZE_LEN: usize = 8;$/;"	c
+RAND_SIZE_USIZE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^const RAND_SIZE_USIZE: usize = 1 << RAND_SIZE_LEN;$/;"	c
+Rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub trait Rand : Sized {$/;"	t
+RandSample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^pub struct RandSample<Sup> {$/;"	s
+Range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^pub struct Range<X> {$/;"	s
+ReadRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^pub struct ReadRng<R> {$/;"	s
+ReseedWithDefault	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^pub struct ReseedWithDefault;$/;"	s
+Reseeder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^pub trait Reseeder<R> {$/;"	t
+ReseedingRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^pub struct ReseedingRng<R, Rsdr> {$/;"	s
+Rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub trait Rng {$/;"	t
+SCALE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    const SCALE: f64 = (1u64 << 53) as f64;$/;"	c
+SCALE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^            const SCALE: $ty = (1u64 << $mantissa_bits) as $ty;$/;"	c
+SPECIAL_CODES_START	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^const SPECIAL_CODES_START: u8 = NEWLINE_CODE;$/;"	c
+STANDARD	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub static STANDARD: Config =$/;"	c
+STANDARD_CHARS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^static STANDARD_CHARS: &'static[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\$/;"	c
+STATE_WORDS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^const STATE_WORDS  : usize = 16;$/;"	c
+Sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^pub trait Sample<Support> {$/;"	t
+SampleRange	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^pub trait SampleRange : Sized {$/;"	t
+SecRandom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    enum SecRandom {}$/;"	g
+SecRandomCopyBytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn SecRandomCopyBytes(rnd: *const SecRandom,$/;"	f
+SeedableRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub trait SeedableRng<Seed>: Rng {$/;"	t
+Stack	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub struct Stack {$/;"	s
+StackElement	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub enum StackElement<'l> {$/;"	g
+StandardNormal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^pub struct StandardNormal(pub f64);$/;"	s
+StdRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct StdRng {$/;"	s
+StudentT	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^pub struct StudentT {$/;"	s
+SynonymMap	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^pub struct SynonymMap<K, V> {$/;"	s
+THREAD_RNG_RESEED_THRESHOLD	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^const THREAD_RNG_RESEED_THRESHOLD: u64 = 32_768;$/;"	c
+ThreadRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct ThreadRng {$/;"	s
+ThreadRngInner	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^type ThreadRngInner = reseeding::ReseedingRng<StdRng, ThreadRngReseeder>;$/;"	T
+ThreadRngReseeder	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^struct ThreadRngReseeder;$/;"	s
+ToBase64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub trait ToBase64 {$/;"	t
+ToHex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^pub trait ToHex {$/;"	t
+ToJson	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub trait ToJson {$/;"	t
+UPPER_MASK	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        const UPPER_MASK: u32 = 0x3F800000;$/;"	c
+UPPER_MASK	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        const UPPER_MASK: u64 = 0x3FF0000000000000;$/;"	c
+URLSAFE_CHARS	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^static URLSAFE_CHARS: &'static[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\\$/;"	c
+URL_SAFE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^pub static URL_SAFE: Config =$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cargo.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cp.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/decode.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/hashmap.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/optional_command.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/verbose_multiple.rs	/^const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^    const USAGE: &'static str = "$/;"	c
+USAGE	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^const USAGE: &'static str = "$/;"	c
+Value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^pub enum Value {$/;"	g
+Weighted	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^pub struct Weighted<T> {$/;"	s
+WeightedChoice	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^pub struct WeightedChoice<'a, T:'a> {$/;"	s
+XorShiftRng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub struct XorShiftRng {$/;"	s
+ZIG_EXP_F	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub static ZIG_EXP_F: [f64; 257] =$/;"	c
+ZIG_EXP_R	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub const ZIG_EXP_R: f64 = 7.697117470131050077;$/;"	c
+ZIG_EXP_X	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub static ZIG_EXP_X: [f64; 257] =$/;"	c
+ZIG_NORM_F	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub static ZIG_NORM_F: [f64; 257] =$/;"	c
+ZIG_NORM_R	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub const ZIG_NORM_R: f64 = 3.654152885361008796;$/;"	c
+ZIG_NORM_X	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub static ZIG_NORM_X: [f64; 257] =$/;"	c
+ZigTable	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/ziggurat_tables.rs	/^pub type ZigTable = &'static [f64; 257];$/;"	T
+add	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        fn add(pat: &mut Pattern, all_atoms: &HashSet<Atom>, par: &Parser) {$/;"	f
+add_atom_ifnotexists	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_atom_ifnotexists(&mut self, arg: Argument, atom: &Atom) {$/;"	f
+add_default_values	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_default_values(&self, state: &mut MState) {$/;"	f
+add_desc	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_desc($/;"	f
+add_flag_values	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_flag_values(&self, state: &mut MState) {$/;"	f
+add_options_shortcut	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_options_shortcut(&mut self, par: &Parser) {$/;"	f
+add_value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_value(&mut self, opts: &Options,$/;"	f
+add_value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn add_value(&self, state: &mut MState,$/;"	f
+all_atoms	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        fn all_atoms(pat: &Pattern, set: &mut HashSet<Atom>) {$/;"	f
+all_atoms	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn all_atoms(&self) -> HashSet<Atom> {$/;"	f
+all_option_states	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn all_option_states(&self, base: &MState, states: &mut Vec<MState>,$/;"	f
+argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn argv<I, S>(mut self, argv: I) -> Docopt$/;"	f
+array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^macro_rules! array {$/;"	d
+array_impl	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^macro_rules! array_impl {$/;"	d
+as_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_array<'a>(&'a self) -> Option<&'a Array> {$/;"	f
+as_array_mut	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_array_mut<'a>(&'a mut self) -> Option<&'a mut Array> {$/;"	f
+as_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn as_bool(&self) -> bool {$/;"	f
+as_boolean	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_boolean(&self) -> Option<bool> {$/;"	f
+as_count	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn as_count(&self) -> u64 {$/;"	f
+as_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_f64(&self) -> Option<f64> {$/;"	f
+as_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_i64(&self) -> Option<i64> {$/;"	f
+as_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub fn as_json<T: Encodable>(t: &T) -> AsJson<T> {$/;"	f
+as_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_null(&self) -> Option<()> {$/;"	f
+as_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_object<'a>(&'a self) -> Option<&'a Object> {$/;"	f
+as_object_mut	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_object_mut<'a>(&'a mut self) -> Option<&'a mut Object> {$/;"	f
+as_pretty_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub fn as_pretty_json<T: Encodable>(t: &T) -> AsPrettyJson<T> {$/;"	f
+as_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn as_str(&self) -> &str {$/;"	f
+as_string	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_string<'a>(&'a self) -> Option<&'a str> {$/;"	f
+as_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn as_u64(&self) -> Option<u64> {$/;"	f
+as_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn as_vec(&self) -> Vec<&str> {$/;"	f
+assert_stream_equal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn assert_stream_equal(src: &str,$/;"	f
+at	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn at(&self, i: usize) -> &str {$/;"	f
+atis	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn atis(&self, offset: usize, is: &str) -> bool {$/;"	f
+bench_decode_hex_escape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn bench_decode_hex_escape(b: &mut Bencher) {$/;"	f
+bench_from_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/base64.rs	/^fn bench_from_base64(b: &mut Bencher) {$/;"	f
+bench_from_base64_large	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/base64.rs	/^fn bench_from_base64_large(b: &mut Bencher) {$/;"	f
+bench_from_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/hex.rs	/^fn bench_from_hex(b: &mut Bencher) {$/;"	f
+bench_gamma_large_shape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/distributions/gamma.rs	/^fn bench_gamma_large_shape(b: &mut Bencher) {$/;"	f
+bench_gamma_small_shape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/distributions/gamma.rs	/^fn bench_gamma_small_shape(b: &mut Bencher) {$/;"	f
+bench_large	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn bench_large(b: &mut Bencher) {$/;"	f
+bench_small	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn bench_small(b: &mut Bencher) {$/;"	f
+bench_streaming_large	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn bench_streaming_large(b: &mut Bencher) {$/;"	f
+bench_streaming_small	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn bench_streaming_small(b: &mut Bencher) {$/;"	f
+bench_to_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/base64.rs	/^fn bench_to_base64(b: &mut Bencher) {$/;"	f
+bench_to_base64_large	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/base64.rs	/^fn bench_to_base64_large(b: &mut Bencher) {$/;"	f
+bench_to_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/hex.rs	/^fn bench_to_hex(b: &mut Bencher) {$/;"	f
+big_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/benches/json.rs	/^fn big_json() -> string::String {$/;"	f
+build	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn build(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn build_array(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn build_object(&mut self) -> Result<Json, BuilderError> {$/;"	f
+build_value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn build_value(&mut self) -> Result<Json, BuilderError> {$/;"	f
+bump	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn bump(&mut self) {$/;"	f
+bump_index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn bump_index(&mut self) {$/;"	f
+cap_capacity	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/lib.rs	/^fn cap_capacity<T>(given_len: usize) -> usize {$/;"	f
+cap_or_empty	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/lib.rs	/^fn cap_or_empty<'t>(caps: &regex::Captures<'t>, name: &str) -> &'t str {$/;"	f
+cap_or_empty	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^fn cap_or_empty<'t>(caps: &regex::Captures<'t>, name: &str) -> &'t str {$/;"	f
+capacity_rules	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^fn capacity_rules() {$/;"	f
+cause	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn cause(&self) -> Option<&StdError> {$/;"	f
+cause	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn cause(&self) -> Option<&StdError> {$/;"	f
+ch_is	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn ch_is(&self, c: char) -> bool {$/;"	f
+ch_or_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn ch_or_null(&self) -> char { self.ch.unwrap_or('\\x00') }$/;"	f
+check_encoder_for_simple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    macro_rules! check_encoder_for_simple {$/;"	d
+check_err	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn check_err<T: Decodable>(to_parse: &'static str, expected: DecoderError) {$/;"	f
+choose	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn choose<'a, T>(&mut self, values: &'a [T]) -> Option<&'a T> where Self: Sized {$/;"	f
+choose_mut	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn choose_mut<'a, T>(&mut self, values: &'a mut [T]) -> Option<&'a mut T> where Self: Sized {$/;"	f
+clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn clone(&self) -> Self { *self }$/;"	f
+clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn clone(&self) -> Isaac64Rng {$/;"	f
+clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn clone(&self) -> IsaacRng {$/;"	f
+clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn clone(&self) -> Self { *self }$/;"	f
+command	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn command(&mut self) -> Result<Pattern, String> {$/;"	f
+construct_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^            fn construct_range(low: $ty, high: $ty) -> Range<$ty> {$/;"	f
+construct_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn construct_range(low: Self, high: Self) -> Range<Self>;$/;"	f
+contains_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn contains_key(&self, k: &K) -> bool {$/;"	f
+core	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^fn core(output: &mut [w32; STATE_WORDS], input: &[w32; STATE_WORDS]) {$/;"	f
+count_idents	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^macro_rules! count_idents {$/;"	d
+cur	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn cur(&self) -> &str { self.at(0) }$/;"	f
+cur	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn cur(&self) -> &str {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/optional_command.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Command, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn decode<D>(&self) -> Result<D, Error> where D: Decodable {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn decode<T: Decodable>(self) -> Result<T, Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<BTreeMap<K, V>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<BTreeSet<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<HashMap<K, V>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<HashSet<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<LinkedList<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<VecDeque<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub fn decode<T: ::Decodable>(s: &str) -> DecodeResult<T> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^            fn decode<D: Decoder>(d: &mut D) -> Result<($($name,)*), D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^            fn decode<D: Decoder>(d: &mut D) -> Result<[T; $len], D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(_d: &mut D) -> Result<PhantomData<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<(), D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Arc<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Box<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Box<[T]>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Cell<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Cow<'static, T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Option<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Rc<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<RefCell<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Result<T, E>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Self, D::Error>;$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<String, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<Vec<T>, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<bool, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<char, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<f32, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<f64, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i16, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i32, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i64, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<i8, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<isize, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<path::PathBuf, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u16, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u32, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u64, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<u8, D::Error> {$/;"	f
+decode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn decode<D: Decoder>(d: &mut D) -> Result<usize, D::Error> {$/;"	f
+decode_hex_escape	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn decode_hex_escape(&mut self) -> Result<u16, ParserError> {$/;"	f
+default	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^        fn default() -> Counter {$/;"	f
+default	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn default() -> ReseedWithDefault { ReseedWithDefault }$/;"	f
+derr	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^macro_rules! derr($/;"	d
+desanitize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^        fn desanitize(name: &str) -> String {$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn description(&self) -> &str {$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn description(&self) -> &str {$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn description(&self) -> &str {$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn description(&self) -> &str { "decoder error" }$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn description(&self) -> &str { "encoder error" }$/;"	f
+description	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn description(&self) -> &str { "failed to parse json" }$/;"	f
+dotag	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        fn dotag(p: &Pattern,$/;"	f
+double_round	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^macro_rules! double_round{$/;"	d
+drop	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn drop(&mut self) {$/;"	f
+emit_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_bool(&mut self, v: bool) -> EncodeResult<()> {$/;"	f
+emit_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_bool(&mut self, v: bool) -> Result<(), Self::Error>;$/;"	f
+emit_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_char(&mut self, v: char) -> EncodeResult<()> {$/;"	f
+emit_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_char(&mut self, v: char) -> Result<(), Self::Error>;$/;"	f
+emit_enquoted_if_mapkey	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! emit_enquoted_if_mapkey {$/;"	d
+emit_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_enum<F>(&mut self, _name: &str, f: F) -> EncodeResult<()> where$/;"	f
+emit_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_enum<F>(&mut self, name: &str, f: F) -> Result<(), Self::Error>$/;"	f
+emit_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_enum_struct_variant<F>(&mut self,$/;"	f
+emit_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_enum_struct_variant<F>(&mut self, v_name: &str,$/;"	f
+emit_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_enum_struct_variant_field<F>(&mut self,$/;"	f
+emit_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_enum_struct_variant_field<F>(&mut self,$/;"	f
+emit_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_enum_variant<F>(&mut self,$/;"	f
+emit_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_enum_variant<F>(&mut self, v_name: &str,$/;"	f
+emit_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_enum_variant_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_enum_variant_arg<F>(&mut self, a_idx: usize, f: F)$/;"	f
+emit_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_f32(&mut self, v: f32) -> EncodeResult<()> {$/;"	f
+emit_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_f32(&mut self, v: f32) -> Result<(), Self::Error>;$/;"	f
+emit_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_f64(&mut self, v: f64) -> EncodeResult<()> {$/;"	f
+emit_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_f64(&mut self, v: f64) -> Result<(), Self::Error>;$/;"	f
+emit_from_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_from_vec<T, F>(&mut self, v: &[T], f: F)$/;"	f
+emit_from_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_from_vec<T, F>(&mut self, v: &[T], mut f: F) -> Result<(), S::Error> where$/;"	f
+emit_i16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_i16(&mut self, v: i16) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_i16(&mut self, v: i16) -> Result<(), Self::Error>;$/;"	f
+emit_i32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_i32(&mut self, v: i32) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_i32(&mut self, v: i32) -> Result<(), Self::Error>;$/;"	f
+emit_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_i64(&mut self, v: i64) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_i64(&mut self, v: i64) -> Result<(), Self::Error>;$/;"	f
+emit_i8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_i8(&mut self, v: i8) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_i8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_i8(&mut self, v: i8) -> Result<(), Self::Error>;$/;"	f
+emit_isize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_isize(&mut self, v: isize) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_isize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_isize(&mut self, v: isize) -> Result<(), Self::Error>;$/;"	f
+emit_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_map<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_map<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_map_elt_key<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_map_elt_key<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_map_elt_val<F>(&mut self, _idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_map_elt_val<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_nil(&mut self) -> EncodeResult<()> {$/;"	f
+emit_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_nil(&mut self) -> Result<(), Self::Error>;$/;"	f
+emit_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_option<F>(&mut self, f: F) -> EncodeResult<()> where$/;"	f
+emit_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_option<F>(&mut self, f: F) -> Result<(), Self::Error>$/;"	f
+emit_option_none	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_option_none(&mut self) -> EncodeResult<()> {$/;"	f
+emit_option_none	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_option_none(&mut self) -> Result<(), Self::Error>;$/;"	f
+emit_option_some	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_option_some<F>(&mut self, f: F) -> EncodeResult<()> where$/;"	f
+emit_option_some	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_option_some<F>(&mut self, f: F) -> Result<(), Self::Error>$/;"	f
+emit_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_seq<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_seq<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_seq_elt<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_seq_elt<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_str(&mut self, v: &str) -> EncodeResult<()> {$/;"	f
+emit_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_str(&mut self, v: &str) -> Result<(), Self::Error>;$/;"	f
+emit_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_struct<F>(&mut self, _: &str, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_struct<F>(&mut self, name: &str, len: usize, f: F)$/;"	f
+emit_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_struct_field<F>(&mut self, name: &str, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_struct_field<F>(&mut self, f_name: &str, f_idx: usize, f: F)$/;"	f
+emit_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_tuple<F>(&mut self, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_tuple<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_tuple_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_tuple_arg<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>$/;"	f
+emit_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_tuple_struct<F>(&mut self, _: &str, len: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_tuple_struct<F>(&mut self, name: &str, len: usize, f: F)$/;"	f
+emit_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_tuple_struct_arg<F>(&mut self, idx: usize, f: F) -> EncodeResult<()> where$/;"	f
+emit_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_tuple_struct_arg<F>(&mut self, f_idx: usize, f: F)$/;"	f
+emit_u16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_u16(&mut self, v: u16) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_u16(&mut self, v: u16) -> Result<(), Self::Error>;$/;"	f
+emit_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_u32(&mut self, v: u32) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_u32(&mut self, v: u32) -> Result<(), Self::Error>;$/;"	f
+emit_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_u64(&mut self, v: u64) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_u64(&mut self, v: u64) -> Result<(), Self::Error>;$/;"	f
+emit_u8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_u8(&mut self, v: u8) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_u8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_u8(&mut self, v: u8) -> Result<(), Self::Error>;$/;"	f
+emit_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn emit_usize(&mut self, v: usize) -> EncodeResult<()> { emit_enquoted_if_mapkey!(self, v) }$/;"	f
+emit_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn emit_usize(&mut self, v: usize) -> Result<(), Self::Error>;$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn encode<E: Encoder>(&self, e: &mut E) -> Result<(), E::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn encode<E: Encoder>(&self, s: &mut E) -> Result<(), E::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn encode<S: Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/collection_impls.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn encode<S: ::Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub fn encode<T: ::Encodable>(object: &T) -> EncodeResult<string::String> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^            fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn encode<S: Encoder>(&self, e: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {$/;"	f
+encode	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error>;$/;"	f
+ends_with	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn ends_with(&self, rhs: &[StackElement]) -> bool {$/;"	f
+eof	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn eof(&self) -> bool { self.ch.is_none() }$/;"	f
+eq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn eq(&self, other: &EncoderError) -> bool {$/;"	f
+eq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn eq(&self, other: &ParserError) -> bool {$/;"	f
+err	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^macro_rules! err($/;"	d
+err_unknown_flag	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn err_unknown_flag(&self, atom: &Atom) -> Result<(), String> {$/;"	f
+err_with_full_doc	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn err_with_full_doc(&self, e: Error) -> Error {$/;"	f
+err_with_usage	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn err_with_usage(&self, e: Error) -> Error {$/;"	f
+errif_invalid_flag_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn errif_invalid_flag_arg(&self, atom: &Atom, arg: &str)$/;"	f
+error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn error(&mut self, err: &str) -> Error {$/;"	f
+error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn error(&mut self, err: &str) -> DecoderError {$/;"	f
+error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn error<E>(&self, reason: ErrorCode) -> Result<E, ParserError> {$/;"	f
+error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn error(&mut self, err: &str) -> Self::Error { () }$/;"	f
+error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn error(&mut self, err: &str) -> Self::Error;$/;"	f
+error_event	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn error_event(&mut self, reason: ErrorCode) -> JsonEvent {$/;"	f
+error_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^pub fn error_str(error: ErrorCode) -> &'static str {$/;"	f
+escape_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^fn escape_char(writer: &mut fmt::Write, v: char) -> EncodeResult<()> {$/;"	f
+escape_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^fn escape_str(wr: &mut fmt::Write, v: &str) -> EncodeResult<()> {$/;"	f
+exit	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn exit(&self) -> ! {$/;"	f
+expect	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! expect {$/;"	d
+fatal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn fatal(&self) -> bool {$/;"	f
+fill	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^fn fill(r: &mut Read, mut buf: &mut [u8]) -> io::Result<()> {$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn fill_bytes(&mut self, bytes: &mut [u8]) {$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn fill_bytes(&mut self, dest: &mut [u8]) {$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn fill_bytes(&mut self, v: &mut [u8]) {$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn fill_bytes(&mut self, v: &mut [u8]) { self.0.fill_bytes(v) }$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn fill_bytes(&mut self, v: &mut [u8]) {$/;"	f
+fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn fill_bytes(&mut self, dest: &mut [u8]) {$/;"	f
+fill_value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn fill_value(&mut self, key: Atom, rep: bool, arg: Option<String>)$/;"	f
+find	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn find(&self, key: &str) -> Option<&Value> {$/;"	f
+find	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn find(&self, k: &K) -> Option<&V> {$/;"	f
+find	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn find<'a>(&'a self, key: &str) -> Option<&'a Json>{$/;"	f
+find_mut	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn find_mut<'a>(&'a mut self, k: &K) -> Option<&'a mut V> {$/;"	f
+find_path	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn find_path<'a>(&'a self, keys: &[&str]) -> Option<&'a Json>{$/;"	f
+fixed_length_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn fixed_length_array() {$/;"	f
+flag_long	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn flag_long(&mut self) -> Result<Pattern, String> {$/;"	f
+flag_short	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn flag_short(&mut self) -> Result<Vec<Pattern>, String> {$/;"	f
+float_impl	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^macro_rules! float_impl {$/;"	d
+float_impls	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^macro_rules! float_impls {$/;"	d
+floating_point_edge_cases	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn floating_point_edge_cases() {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> Result<(), fmt::Error> {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    fn fmt(&self, f: &mut ::std::fmt::Formatter) -> ::std::fmt::Result {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt_number_or_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^fn fmt_number_or_null(v: f64) -> string::String {$/;"	f
+from	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn from(err: ParserError) -> DecoderError {$/;"	f
+from	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn from(err: fmt::Error) -> EncoderError { EncoderError::FmtError(err) }$/;"	f
+from	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn from(err: io::Error) -> ParserError {$/;"	f
+from_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn from_base64(&self) -> Result<Vec<u8>, FromBase64Error> {$/;"	f
+from_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn from_base64(&self) -> Result<Vec<u8>, FromBase64Error>;$/;"	f
+from_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn from_hex(&self) -> Result<Vec<u8>, FromHexError> {$/;"	f
+from_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn from_hex(&self) -> Result<Vec<u8>, FromHexError>;$/;"	f
+from_iter	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    fn from_iter<T: IntoIterator<Item=(K, V)>>(iter: T) -> SynonymMap<K, V> {$/;"	f
+from_reader	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn from_reader(rdr: &mut io::Read) -> Result<Self, BuilderError> {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn from_seed(seed: &'a [u32]) -> ChaChaRng {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn from_seed(seed: &'a [u32]) -> IsaacRng {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn from_seed(seed: &'a [u64]) -> Isaac64Rng {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn from_seed(seed: &'a [usize]) -> StdRng {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn from_seed(seed: Seed) -> Self;$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn from_seed(seed: [u32; 4]) -> XorShiftRng {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^        fn from_seed(seed: u32) -> Counter {$/;"	f
+from_seed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn from_seed((rsdr, seed): (Rsdr, S)) -> ReseedingRng<R, Rsdr> {$/;"	f
+from_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn from_str(s: &str) -> Result<Json, ParserError> {$/;"	f
+from_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn from_str(s: &str) -> Result<Self, BuilderError> {$/;"	f
+gen	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn gen<T: Rand>(&mut self) -> T where Self: Sized {$/;"	f
+gen_ascii_chars	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn gen_ascii_chars<'a>(&'a mut self) -> AsciiGenerator<'a, Self> where Self: Sized {$/;"	f
+gen_iter	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn gen_iter<'a, T: Rand>(&'a mut self) -> Generator<'a, T, Self> where Self: Sized {$/;"	f
+gen_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn gen_range<T: PartialOrd + SampleRange>(&mut self, low: T, high: T) -> T where Self: Sized {$/;"	f
+gen_weighted_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn gen_weighted_bool(&mut self, n: u32) -> bool where Self: Sized {$/;"	f
+get	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn get<'a>(&'a self, k: &K) -> &'a V {$/;"	f
+get	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn get<'l>(&'l self, idx: usize) -> StackElement<'l> {$/;"	f
+get_args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^fn get_args(doc: &str, argv: &[&'static str]) -> ArgvMap {$/;"	f
+get_argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn get_argv() -> Vec<String> {$/;"	f
+get_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn get_bool(&self, key: &str) -> bool {$/;"	f
+get_count	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn get_count(&self, key: &str) -> u64 {$/;"	f
+get_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn get_str(&self, key: &str) -> &str {$/;"	f
+get_suggestion	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/suggestions.rs	/^fn get_suggestion(doc: &str, argv: &[&'static str]) -> Error {$/;"	f
+get_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn get_vec(&self, key: &str) -> Vec<&str> {$/;"	f
+getrandom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn getrandom(_buf: &mut [u8]) -> libc::c_long { -1 }$/;"	f
+getrandom	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn getrandom(buf: &mut [u8]) -> libc::c_long {$/;"	f
+getrandom_fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn getrandom_fill_bytes(v: &mut [u8]) {$/;"	f
+group	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn group(&mut self)$/;"	f
+has_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn has_arg(&self) -> bool {$/;"	f
+has_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn has_arg(&self, atom: &Atom) -> bool {$/;"	f
+has_repeat	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn has_repeat(&self, atom: &Atom) -> bool {$/;"	f
+help	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn help(mut self, yes: bool) -> Docopt {$/;"	f
+imp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^mod imp {$/;"	m
+ind	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        macro_rules! ind {$/;"	d
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> f64 {$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> f64 {$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn ind_sample<R: Rng>(&self, &mut R) -> Support;$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> Sup {$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> T {$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> f64 {$/;"	f
+ind_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn ind_sample<R: Rng>(&self, rng: &mut R) -> Sup {$/;"	f
+indent	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn indent(mut self, indent: u32) -> AsPrettyJson<'a, T> {$/;"	f
+indents	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^        fn indents(source: &str) -> usize {$/;"	f
+index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn index(&self, idx: &str) -> &Json {$/;"	f
+index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn index<'a>(&'a self, idx: usize) -> &'a Json {$/;"	f
+init	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn init(&mut self, key: &[u32; KEY_WORDS]) {$/;"	f
+init	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        macro_rules! init {$/;"	d
+init	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn init(&mut self, use_rsl: bool) {$/;"	f
+insert	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn insert(&mut self, k: K, v: V) -> bool {$/;"	f
+insert_synonym	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn insert_synonym(&mut self, from: K, to: K) -> bool {$/;"	f
+integer_impl	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^macro_rules! integer_impl {$/;"	d
+into_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn into_array(self) -> Option<Array> {$/;"	f
+into_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn into_object(self) -> Option<Object> {$/;"	f
+is_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_arg(s: &str) -> bool {$/;"	f
+is_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_array<'a>(&'a self) -> bool {$/;"	f
+is_boolean	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_boolean(&self) -> bool {$/;"	f
+is_cmd	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_cmd(s: &str) -> bool {$/;"	f
+is_empty	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_empty(&self) -> bool { self.stack.is_empty() }$/;"	f
+is_eof	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_eof(&self) -> bool {$/;"	f
+is_equal_to	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_equal_to(&self, rhs: &[StackElement]) -> bool {$/;"	f
+is_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_f64(&self) -> bool {$/;"	f
+is_getrandom_available	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn is_getrandom_available() -> bool { false }$/;"	f
+is_getrandom_available	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn is_getrandom_available() -> bool {$/;"	f
+is_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_i64(&self) -> bool {$/;"	f
+is_long	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_long(s: &str) -> bool {$/;"	f
+is_long_argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_long_argv(s: &str) -> bool {$/;"	f
+is_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_null(&self) -> bool {$/;"	f
+is_number	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_number(&self) -> bool {$/;"	f
+is_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_object<'a>(&'a self) -> bool {$/;"	f
+is_short	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn is_short(s: &str) -> bool {$/;"	f
+is_string	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_string<'a>(&'a self) -> bool {$/;"	f
+is_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn is_u64(&self) -> bool {$/;"	f
+isaac	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn isaac(&mut self) {$/;"	f
+isaac64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn isaac64(&mut self) {$/;"	f
+iter	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn iter(&self) -> Iter<K, V> {$/;"	f
+iter_eq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    pub fn iter_eq<I, J>(i: I, j: J) -> bool$/;"	f
+kSecRandomDefault	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    const kSecRandomDefault: *const SecRandom = 0 as *const SecRandom;$/;"	c
+key_to_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn key_to_struct_field(name: &str) -> String {$/;"	f
+keys	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn keys(&self) -> Keys<K, V> {$/;"	f
+last_event	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn last_event(src: &str) -> JsonEvent {$/;"	f
+last_is_index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn last_is_index(&self) -> bool {$/;"	f
+len	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn len(&self) -> usize {$/;"	f
+len	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn len(&self) -> usize {$/;"	f
+len	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn len(&self) -> usize { self.stack.len() }$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cargo.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/cp.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/decode.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/hashmap.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/optional_command.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/examples/verbose_multiple.rs	/^fn main() {$/;"	f
+main	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^fn main() {$/;"	f
+map_from_alist	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^fn map_from_alist(alist: Vec<(&'static str, Value)>)$/;"	f
+match_cmd_or_posarg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn match_cmd_or_posarg(&mut self, spec: &Atom, argv: &ArgvToken)$/;"	f
+matches	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn matches(argv: &'a Argv, pat: &Pattern)$/;"	f
+matches	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    pub fn matches(&self, argv: &Argv) -> Option<SynonymMap<String, Value>> {$/;"	f
+maybe_repeat	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn maybe_repeat(&mut self, pat: Pattern) -> Pattern {$/;"	f
+memloop	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^            macro_rules! memloop {$/;"	d
+mix	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^        macro_rules! mix {$/;"	d
+mk_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn mk_object(items: &[(string::String, Json)]) -> Json {$/;"	f
+nacl_interface_query	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn nacl_interface_query(name: *const libc::c_char,$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn new<S>(usage: S) -> Result<Docopt, Error>$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn new(dopt: &'a Parser, argv: Vec<String>, options_first: bool)$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn new(dopt: &'a mut Parser, pat: &str) -> PatParser<'a> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn new(rep: bool, arg: Argument) -> Options {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    pub fn new(doc: &str) -> Result<Parser, String> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    pub fn new(s: &str) -> Atom {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn new() -> SynonymMap<K, V> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    pub fn new(lambda: f64) -> Exp {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    pub fn new(k: f64) -> ChiSquared {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    pub fn new(m: f64, n: f64) -> FisherF {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    pub fn new(n: f64) -> StudentT {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    pub fn new(shape: f64, scale: f64) -> Gamma {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    pub fn new() -> RandSample<Sup> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    pub fn new(items: &'a mut [Weighted<T>]) -> WeightedChoice<'a, T> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    pub fn new(mean: f64, std_dev: f64) -> LogNormal {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    pub fn new(mean: f64, std_dev: f64) -> Normal {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    pub fn new(low: X, high: X) -> Range<X> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    pub fn new() -> io::Result<StdRng> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        pub fn new() -> io::Result<OsRng> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    pub fn new() -> io::Result<OsRng> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    pub fn new(r: R) -> ReadRng<R> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    pub fn new(rng: R, generation_threshold: u64, reseeder: Rsdr) -> ReseedingRng<R,Rsdr> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new() -> Stack {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new(json: Json) -> Decoder {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new(rdr: T) -> Parser<T> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new(src: T) -> Builder<T> {$/;"	f
+new	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new(writer: &'a mut fmt::Write) -> Encoder<'a> {$/;"	f
+new_pretty	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn new_pretty(writer: &'a mut fmt::Write) -> Encoder<'a> {$/;"	f
+new_raw	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn new_raw(shape: f64, scale: f64) -> GammaLargeShape {$/;"	f
+new_raw	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn new_raw(shape: f64, scale: f64) -> GammaSmallShape {$/;"	f
+new_unseeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    pub fn new_unseeded() -> ChaChaRng {$/;"	f
+new_unseeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    pub fn new_unseeded() -> Isaac64Rng {$/;"	f
+new_unseeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    pub fn new_unseeded() -> IsaacRng {$/;"	f
+new_unseeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    pub fn new_unseeded() -> XorShiftRng {$/;"	f
+next	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn next(&mut self) {$/;"	f
+next	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^            fn next<T: Rng>(t: &mut T) -> u32 {$/;"	f
+next	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next(&mut self) -> Option<T> {$/;"	f
+next	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next(&mut self) -> Option<char> {$/;"	f
+next	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn next(&mut self) -> Option<JsonEvent> {$/;"	f
+next_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn next_arg(&mut self, atom: &Atom) -> Result<&str, String> {$/;"	f
+next_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn next_char(&mut self) -> Option<char> {$/;"	f
+next_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next_f32(&mut self) -> f32 {$/;"	f
+next_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next_f64(&mut self) -> f64 {$/;"	f
+next_flag_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn next_flag_arg(&mut self, atom: &Atom) -> Result<(), String> {$/;"	f
+next_noeof	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn next_noeof(&mut self, expected: &str) -> Result<(), String> {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        fn next_u32(&mut self) -> u32 { self.i as u32 }$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next_u32(&mut self) -> u32;$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn next_u32(&mut self) -> u32 { self.0.next_u32() }$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^fn next_u32(mut fill_buf: &mut FnMut(&mut [u8])) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^        fn next_u32(&mut self) -> u32 {$/;"	f
+next_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn next_u32(&mut self) -> u32 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^        fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^        fn next_u64(&mut self) -> u64 { self.i }$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^        fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn next_u64(&mut self) -> u64 { self.0.next_u64() }$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^fn next_u64(mut fill_buf: &mut FnMut(&mut [u8])) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^        fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn next_u64(&mut self) -> u64 {$/;"	f
+next_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn next_u64(&mut self) -> u64 {$/;"	f
+options_atoms	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn options_atoms(&self) -> Vec<Atom> {$/;"	f
+options_first	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn options_first(mut self, yes: bool) -> Docopt {$/;"	f
+parse	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn parse(&self) -> Result<ArgvMap, Error> {$/;"	f
+parse	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn parse(&mut self) -> Result<(), String> {$/;"	f
+parse	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn parse(&mut self) -> Result<Pattern, String> {$/;"	f
+parse	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn parse(&mut self, doc: &str) -> Result<(), String> {$/;"	f
+parse	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse(&mut self) -> JsonEvent {$/;"	f
+parse_argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    pub fn parse_argv(&self, argv: Vec<String>, options_first: bool)$/;"	f
+parse_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_array(&mut self, first: bool) -> JsonEvent {$/;"	f
+parse_array_comma_or_end	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_array_comma_or_end(&mut self) -> Option<JsonEvent> {$/;"	f
+parse_decimal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_decimal(&mut self, mut res: f64) -> Result<f64, ParserError> {$/;"	f
+parse_default	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn parse_default(&mut self, desc: &str) -> Result<(), String> {$/;"	f
+parse_desc	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn parse_desc(&mut self, full_desc: &str) -> Result<(), String> {$/;"	f
+parse_exponent	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_exponent(&mut self, mut res: f64) -> Result<f64, ParserError> {$/;"	f
+parse_ident	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_ident(&mut self, ident: &str, value: JsonEvent) -> JsonEvent {$/;"	f
+parse_long_equal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^fn parse_long_equal(flag: &str) -> Result<(Atom, Argument), String> {$/;"	f
+parse_long_equal_argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^fn parse_long_equal_argv(flag: &str) -> (Atom, Option<String>) {$/;"	f
+parse_number	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_number(&mut self) -> JsonEvent {$/;"	f
+parse_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_object(&mut self, first: bool) -> JsonEvent {$/;"	f
+parse_object_end	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_object_end(&mut self) -> JsonEvent {$/;"	f
+parse_start	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_start(&mut self) -> JsonEvent {$/;"	f
+parse_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_str(&mut self) -> Result<string::String, ParserError> {$/;"	f
+parse_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_u64(&mut self) -> Result<u64, ParserError> {$/;"	f
+parse_value	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_value(&mut self) -> JsonEvent {$/;"	f
+parse_whitespace	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn parse_whitespace(&mut self) {$/;"	f
+parser	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn parser(&self) -> &Parser {$/;"	f
+partial_cmp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn partial_cmp(&self, other: &Atom) -> Option<Ordering> {$/;"	f
+pattern	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn pattern(&mut self) -> Result<Pattern, String> {$/;"	f
+pattern_tokens	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^fn pattern_tokens(pat: &str) -> Vec<String> {$/;"	f
+pdf	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^        fn pdf(x: f64) -> f64 {$/;"	f
+pdf	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^        fn pdf(x: f64) -> f64 {$/;"	f
+peel	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^macro_rules! peel {$/;"	d
+pop	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn pop(&mut self) -> Result<DecoderItem, Error> {$/;"	f
+pop	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn pop(&mut self) -> DecodeResult<Json> {$/;"	f
+pop	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn pop(&mut self) {$/;"	f
+pop_key_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn pop_key_val(&mut self) -> Result<(String, Value), Error> {$/;"	f
+pop_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn pop_val(&mut self) -> Result<Value, Error> {$/;"	f
+positional	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn positional(&mut self) -> Result<Pattern, String> {$/;"	f
+pretty	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn pretty(&self) -> PrettyJson {$/;"	f
+push	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn push(&mut self, struct_field: &str) {$/;"	f
+push_index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn push_index(&mut self, index: u32) {$/;"	f
+push_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn push_key(&mut self, key: string::String) {$/;"	f
+quarter_round	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^macro_rules! quarter_round{$/;"	d
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn rand<R: Rng>(other: &mut R) -> ChaChaRng {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn rand<R:Rng>(rng: &mut R) -> Exp1 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^        fn rand<R: Rng>(_: &mut R) -> ConstRand {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn rand<R:Rng>(rng: &mut R) -> StandardNormal {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn rand<R: Rng>(other: &mut R) -> Isaac64Rng {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn rand<R: Rng>(other: &mut R) -> IsaacRng {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn rand<R: Rng>(rng: &mut R) -> Self;$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn rand<R: Rng>(rng: &mut R) -> XorShiftRng {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^                fn rand<R: Rng>(rng: &mut R) -> $ty {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^                fn rand<R: Rng>(rng: &mut R) -> Closed01<$ty> {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^                fn rand<R: Rng>(rng: &mut R) -> Open01<$ty> {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^            fn rand<R: Rng>(_rng: &mut R) -> ( $( $tyvar ),* , ) {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^            fn rand<R: Rng>(_rng: &mut R) -> [T; $n] { [] }$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^            fn rand<R: Rng>(_rng: &mut R) -> [T; $n] {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(_: &mut R) -> () { () }$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> Option<T> {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> bool {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> char {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> i16 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> i32 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> i64 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> i8 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> isize {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> u16 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> u32 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> u64 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> u8 {$/;"	f
+rand	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand<R: Rng>(rng: &mut R) -> usize {$/;"	f
+rand_closed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand_closed() {$/;"	f
+rand_exp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/distributions/exponential.rs	/^fn rand_exp(b: &mut Bencher) {$/;"	f
+rand_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_f32(b: &mut Bencher) {$/;"	f
+rand_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_f64(b: &mut Bencher) {$/;"	f
+rand_isaac	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_isaac(b: &mut Bencher) {$/;"	f
+rand_isaac64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_isaac64(b: &mut Bencher) {$/;"	f
+rand_normal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/distributions/normal.rs	/^fn rand_normal(b: &mut Bencher) {$/;"	f
+rand_open	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^    fn rand_open() {$/;"	f
+rand_shuffle_100	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_shuffle_100(b: &mut Bencher) {$/;"	f
+rand_std	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_std(b: &mut Bencher) {$/;"	f
+rand_xorshift	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/benches/bench.rs	/^fn rand_xorshift(b: &mut Bencher) {$/;"	f
+random	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub fn random<T: Rand>() -> T {$/;"	f
+read_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_bool(&mut self) -> Result<bool, Error> {$/;"	f
+read_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_bool(&mut self) -> DecodeResult<bool> {$/;"	f
+read_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_bool(&mut self) -> Result<bool, Self::Error> { Err(()) }$/;"	f
+read_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_bool(&mut self) -> Result<bool, Self::Error>;$/;"	f
+read_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_char(&mut self) -> Result<char, Error> {$/;"	f
+read_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_char(&mut self) -> DecodeResult<char> {$/;"	f
+read_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_char(&mut self) -> Result<char, Self::Error> { Err(()) }$/;"	f
+read_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_char(&mut self) -> Result<char, Self::Error>;$/;"	f
+read_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_enum<T, F>(&mut self, _: &str, f: F) -> Result<T, Error>$/;"	f
+read_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_enum<T, F>(&mut self, _name: &str, f: F) -> DecodeResult<T> where$/;"	f
+read_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_enum<T, F>(&mut self, name: &str, f: F) -> Result<T, Self::Error>$/;"	f
+read_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_enum<T, F>(&mut self, name: &str, f: F) -> Result<T, Self::Error>$/;"	f
+read_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, _: &[&str], _: F)$/;"	f
+read_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F) -> DecodeResult<T> where$/;"	f
+read_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_struct_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_enum_struct_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self, _: &str, _: usize, _: F)$/;"	f
+read_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_struct_variant_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_enum_struct_variant_field<T, F>(&mut self,$/;"	f
+read_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str], mut f: F)$/;"	f
+read_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str],$/;"	f
+read_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_enum_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_variant	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_enum_variant<T, F>(&mut self, names: &[&str], f: F)$/;"	f
+read_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, _: usize, _: F)$/;"	f
+read_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_enum_variant_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_enum_variant_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_enum_variant_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_f32(&mut self) -> Result<f32, Error> {$/;"	f
+read_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_f32(&mut self) -> DecodeResult<f32> {$/;"	f
+read_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_f32(&mut self) -> Result<f32, Self::Error> { Err(()) }$/;"	f
+read_f32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_f32(&mut self) -> Result<f32, Self::Error>;$/;"	f
+read_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_f64(&mut self) -> Result<f64, Error> {$/;"	f
+read_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_f64(&mut self) -> DecodeResult<f64> {$/;"	f
+read_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_f64(&mut self) -> Result<f64, Self::Error> { Err(()) }$/;"	f
+read_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_f64(&mut self) -> Result<f64, Self::Error>;$/;"	f
+read_i16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_i16(&mut self) -> Result<i16, Self::Error> { Err(()) }$/;"	f
+read_i16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_i16(&mut self) -> Result<i16, Self::Error>;$/;"	f
+read_i32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_i32(&mut self) -> Result<i32, Self::Error> { Err(()) }$/;"	f
+read_i32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_i32(&mut self) -> Result<i32, Self::Error>;$/;"	f
+read_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_i64(&mut self) -> Result<i64, Self::Error> { Err(()) }$/;"	f
+read_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_i64(&mut self) -> Result<i64, Self::Error>;$/;"	f
+read_i8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_i8(&mut self) -> Result<i8, Self::Error> { Err(()) }$/;"	f
+read_i8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_i8(&mut self) -> Result<i8, Self::Error>;$/;"	f
+read_isize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_isize(&mut self) -> Result<isize, Self::Error> { Err(()) }$/;"	f
+read_isize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_isize(&mut self) -> Result<isize, Self::Error>;$/;"	f
+read_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_map<T, F>(&mut self, _: F) -> Result<T, Error>$/;"	f
+read_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_map<T, F>(&mut self, f: F) -> DecodeResult<T> where$/;"	f
+read_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_map<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_map<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_map_elt_key<T, F>(&mut self, _: usize, _: F) -> Result<T, Error>$/;"	f
+read_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_map_elt_key<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_map_elt_key<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_map_elt_key<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_map_elt_val<T, F>(&mut self, _: usize, _: F) -> Result<T, Error>$/;"	f
+read_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_map_elt_val<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_map_elt_val<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_map_elt_val	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_map_elt_val<T, F>(&mut self, idx: usize, f: F)$/;"	f
+read_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_nil(&mut self) -> Result<(), Error> {$/;"	f
+read_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_nil(&mut self) -> DecodeResult<()> {$/;"	f
+read_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_nil(&mut self) -> Result<(), Self::Error> { Err(()) }$/;"	f
+read_nil	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_nil(&mut self) -> Result<(), Self::Error>;$/;"	f
+read_num	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^macro_rules! read_num {$/;"	d
+read_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_option<T, F>(&mut self, mut f: F) -> Result<T, Error>$/;"	f
+read_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_option<T, F>(&mut self, mut f: F) -> DecodeResult<T> where$/;"	f
+read_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_option<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_option<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_primitive	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! read_primitive {$/;"	d
+read_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> Result<T, Error>$/;"	f
+read_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> DecodeResult<T> where$/;"	f
+read_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_seq<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_seq<T, F>(&mut self, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_seq_elt<T, F>(&mut self, _: usize, f: F) -> Result<T, Error>$/;"	f
+read_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_seq_elt<T, F>(&mut self, _idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_seq_elt<T, F>(&mut self, idx: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_seq_elt	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_seq_elt<T, F>(&mut self, idx: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_str(&mut self) -> Result<String, Error> {$/;"	f
+read_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_str(&mut self) -> DecodeResult<string::String> {$/;"	f
+read_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_str(&mut self) -> Result<String, Self::Error> { Err(()) }$/;"	f
+read_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_str(&mut self) -> Result<String, Self::Error>;$/;"	f
+read_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_struct<T, F>(&mut self, _: &str, _: usize, f: F) -> Result<T, Error>$/;"	f
+read_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_struct<T, F>(&mut self, _name: &str, _len: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_struct_field<T, F>(&mut self, f_name: &str, _: usize, f: F)$/;"	f
+read_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_struct_field<T, F>(&mut self,$/;"	f
+read_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_struct_field<T, F>(&mut self,$/;"	f
+read_struct_field	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_struct_field<T, F>(&mut self,$/;"	f
+read_to_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_to_vec<T, F>(&mut self, f: F)$/;"	f
+read_to_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_to_vec<T, F>(&mut self, mut f: F) -> Result<Vec<T>, D::Error> where F:$/;"	f
+read_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_tuple<T, F>(&mut self, _: usize, _: F) -> Result<T, Error>$/;"	f
+read_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_tuple<T, F>(&mut self, tuple_len: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_tuple<T, F>(&mut self, len: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_tuple<T, F>(&mut self, len: usize, f: F) -> Result<T, Self::Error>$/;"	f
+read_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_tuple_arg<T, F>(&mut self, _: usize, _: F) -> Result<T, Error>$/;"	f
+read_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_tuple_arg<T, F>(&mut self, idx: usize, f: F) -> DecodeResult<T> where$/;"	f
+read_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_tuple_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_tuple_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_tuple_struct<T, F>(&mut self, _: &str, _: usize, _: F)$/;"	f
+read_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_tuple_struct<T, F>(&mut self,$/;"	f
+read_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_tuple_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_tuple_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_tuple_struct<T, F>(&mut self, s_name: &str, len: usize, f: F)$/;"	f
+read_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self, _: usize, _: F)$/;"	f
+read_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self,$/;"	f
+read_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_tuple_struct_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_tuple_struct_arg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_tuple_struct_arg<T, F>(&mut self, a_idx: usize, f: F)$/;"	f
+read_u16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_u16(&mut self) -> Result<u16, Self::Error> { Err(()) }$/;"	f
+read_u16	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_u16(&mut self) -> Result<u16, Self::Error>;$/;"	f
+read_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_u32(&mut self) -> Result<u32, Self::Error> { Err(()) }$/;"	f
+read_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_u32(&mut self) -> Result<u32, Self::Error>;$/;"	f
+read_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_u64(&mut self) -> Result<u64, Self::Error> { Err(()) }$/;"	f
+read_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_u64(&mut self) -> Result<u64, Self::Error>;$/;"	f
+read_u8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_u8(&mut self) -> Result<u8, Self::Error> { Err(()) }$/;"	f
+read_u8	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_u8(&mut self) -> Result<u8, Self::Error>;$/;"	f
+read_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^        fn read_usize(&mut self) -> Result<usize, Self::Error> { Err(()) }$/;"	f
+read_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^    fn read_usize(&mut self) -> Result<usize, Self::Error>;$/;"	f
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^            static ref ARG: Regex = regex!(r"^arg_");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^            static ref CMD: Regex = regex!(r"^cmd_");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^            static ref FLAG: Regex = regex!(r"^flag_");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^            static ref LETTERS: Regex = regex!(r"^\\p{Lu}+$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^            static ref RE: Regex = regex!($/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref FIND_DEFAULT: Regex = regex!($/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref FIND_FLAGS: Regex = regex!(r"(?x)$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref ISFLAG: Regex = regex!(r"^(-\\S|--\\S)");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref MUSAGE: Regex = Regex::new($/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref NORMALIZE_FLAGS: Regex = regex!(r"([^-\\s]), -");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref OPTIONS: Regex = regex!(r"^\\s*(?i:options:)\\s*");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref RE: Regex = regex!(r"^(-|--|[^-]\\S*)$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref RE: Regex = regex!(r"^(\\p{Lu}+|<[^>]+>)$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref RE: Regex = regex!(r"^--\\S+(=.+)?$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref RE: Regex = regex!(r"^--\\S+(?:<[^>]+>)?$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref RE: Regex = regex!(r"^-[^-]\\S*$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref REMOVE_DESC: Regex = regex!(r"  .*$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^            static ref SPLIT_SPACE: Regex = regex!(r"\\s+");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        static ref LONG_EQUAL: Regex = regex!("^(?P<name>[^=]+)=(?P<arg>.*)$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        static ref LONG_EQUAL: Regex = regex!("^(?P<name>[^=]+)=(?P<arg>.+)$");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        static ref NORMALIZE: Regex = regex!(r"\\.\\.\\.|\\[|\\]|\\(|\\)|\\|");$/;"	c
+ref	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        static ref WORDS: Regex = regex!(r"--\\S+?=<[^>]+>|<[^>]+>|\\S+");$/;"	c
+regex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/lib.rs	/^macro_rules! regex($/;"	d
+regex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^macro_rules! regex($/;"	d
+regression_issue_12	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^fn regression_issue_12() {$/;"	f
+regression_issue_195	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^fn regression_issue_195() {$/;"	f
+repeat	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn repeat(p: Pattern) -> Pattern {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn reseed(&mut self, seed: &'a [u32]) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn reseed(&mut self, seed: &'a [u32]) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn reseed(&mut self, seed: &'a [u64]) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn reseed(&mut self, Seed);$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn reseed(&mut self, rng: &mut StdRng) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn reseed(&mut self, seed: &'a [usize]) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn reseed(&mut self, seed: [u32; 4]) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^        fn reseed(&mut self, seed: u32) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn reseed(&mut self, (rsdr, seed): (Rsdr, S)) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn reseed(&mut self, rng: &mut R) {$/;"	f
+reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn reseed(&mut self, rng: &mut R);$/;"	f
+reseed_if_necessary	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    pub fn reseed_if_necessary(&mut self) {$/;"	f
+resolve	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn resolve(&self, k: &K) -> K {$/;"	f
+rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    pub fn rng() -> MyRng<::ThreadRng> {$/;"	f
+rngstepn	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^                macro_rules! rngstepn {$/;"	d
+rngstepn	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^            macro_rules! rngstepn {$/;"	d
+rngstepp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^                macro_rules! rngstepp {$/;"	d
+rngstepp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^            macro_rules! rngstepp {$/;"	d
+run	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^fn run(args: Args) -> Result<(), String> {$/;"	f
+rustc_serialize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/lib.rs	/^mod rustc_serialize {$/;"	m
+same_args	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^fn same_args(expected: &HashMap<String, Value>, got: &ArgvMap) {$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> f64 { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> f64 { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> Sup { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> Support;$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> T { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> f64 { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn sample<R: Rng>(&mut self, rng: &mut R) -> Sup { self.ind_sample(rng) }$/;"	f
+sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub fn sample<T, I, R>(rng: &mut R, iterable: I, amount: usize) -> Vec<T>$/;"	f
+sample_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^            fn sample_range<R: Rng>(r: &Range<$ty>, rng: &mut R) -> $ty {$/;"	f
+sample_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn sample_range<R: Rng>(r: &Range<Self>, rng: &mut R) -> Self;$/;"	f
+sanitize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^        fn sanitize(name: &str) -> String {$/;"	f
+search	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn search<'a>(&'a self, key: &str) -> Option<&'a Json> {$/;"	f
+set_counter	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    pub fn set_counter(&mut self, counter_low: u64, counter_high: u64) {$/;"	f
+set_indent	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn set_indent(&mut self, new_indent: u32) -> Result<(), ()> {$/;"	f
+shuffle	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn shuffle<T>(&mut self, values: &mut [T]) where Self: Sized {$/;"	f
+sorted	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^        fn sorted<T: Ord>(mut xs: Vec<T>) -> Vec<T> {$/;"	f
+spaces	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^fn spaces(wr: &mut fmt::Write, n: u32) -> EncodeResult<()> {$/;"	f
+stack	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn stack<'l>(&'l self) -> &'l Stack {$/;"	f
+starts_with	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn starts_with(&self, rhs: &[StackElement]) -> bool {$/;"	f
+state_consumed_all_argv	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn state_consumed_all_argv(&self, state: &MState) -> bool {$/;"	f
+state_has_valid_flags	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn state_has_valid_flags(&self, state: &MState) -> bool {$/;"	f
+state_valid_num_flags	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn state_valid_num_flags(&self, state: &MState) -> bool {$/;"	f
+states	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn states(&self, pat: &Pattern, init: &MState) -> Vec<MState> {$/;"	f
+struct_field_to_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn struct_field_to_key(field: &str) -> String {$/;"	f
+swap	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn swap(&mut self, k: K, mut new: V) -> Option<V> {$/;"	f
+synonyms	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    pub fn synonyms(&self) -> Iter<K, K> {$/;"	f
+syscall	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^            fn syscall(number: libc::c_long, ...) -> libc::c_long;$/;"	f
+t	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^        macro_rules! t {$/;"	d
+t	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^        macro_rules! t {$/;"	d
+tag_repeats	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn tag_repeats(&self, map: &mut SynonymMap<Atom, Options>) {$/;"	f
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^mod test {$/;"	m
+test	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^mod test {$/;"	m
+test_as_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_array(){$/;"	f
+test_as_boolean	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_boolean(){$/;"	f
+test_as_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_f64(){$/;"	f
+test_as_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_i64(){$/;"	f
+test_as_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_null(){$/;"	f
+test_as_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_object(){$/;"	f
+test_as_string	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_string(){$/;"	f
+test_as_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_as_u64(){$/;"	f
+test_bad_json_stack_depleted	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_bad_json_stack_depleted() {$/;"	f
+test_base64_random	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_base64_random() {$/;"	f
+test_chi_squared_invalid_dof	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_chi_squared_invalid_dof() {$/;"	f
+test_chi_squared_large	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_chi_squared_large() {$/;"	f
+test_chi_squared_one	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_chi_squared_one() {$/;"	f
+test_chi_squared_small	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_chi_squared_small() {$/;"	f
+test_choose	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_choose() {$/;"	f
+test_decode_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_array() {$/;"	f
+test_decode_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_enum() {$/;"	f
+test_decode_errors_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_errors_enum() {$/;"	f
+test_decode_errors_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_errors_struct() {$/;"	f
+test_decode_identifiers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_identifiers() {$/;"	f
+test_decode_map	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_map() {$/;"	f
+test_decode_numbers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_numbers() {$/;"	f
+test_decode_option	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_option() {$/;"	f
+test_decode_option_malformed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_option_malformed() {$/;"	f
+test_decode_option_none	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_option_none() {$/;"	f
+test_decode_option_some	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_option_some() {$/;"	f
+test_decode_result	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_result() {$/;"	f
+test_decode_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_str() {$/;"	f
+test_decode_struct	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_struct() {$/;"	f
+test_decode_struct_with_nan	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_struct_with_nan() {$/;"	f
+test_decode_tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_tuple() {$/;"	f
+test_decode_tuple_malformed_length	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_tuple_malformed_length() {$/;"	f
+test_decode_tuple_malformed_types	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_decode_tuple_malformed_types() {$/;"	f
+test_encode_decode_phantom_data	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_encode_decode_phantom_data() {$/;"	f
+test_encode_hashmap_with_arbitrary_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_encode_hashmap_with_arbitrary_key() {$/;"	f
+test_encode_hashmap_with_numeric_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_encode_hashmap_with_numeric_key() {$/;"	f
+test_exp	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn test_exp() {$/;"	f
+test_exp_invalid_lambda_neg	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn test_exp_invalid_lambda_neg() {$/;"	f
+test_exp_invalid_lambda_zero	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^    fn test_exp_invalid_lambda_zero() {$/;"	f
+test_expect	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^macro_rules! test_expect($/;"	d
+test_f	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_f() {$/;"	f
+test_fill_bytes_default	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_fill_bytes_default() {$/;"	f
+test_find	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_find(){$/;"	f
+test_find_path	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_find_path(){$/;"	f
+test_floats	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn test_floats() {$/;"	f
+test_from_base64_basic	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_basic() {$/;"	f
+test_from_base64_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_bytes() {$/;"	f
+test_from_base64_invalid_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_invalid_char() {$/;"	f
+test_from_base64_invalid_padding	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_invalid_padding() {$/;"	f
+test_from_base64_newlines	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_newlines() {$/;"	f
+test_from_base64_urlsafe	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_from_base64_urlsafe() {$/;"	f
+test_from_hex_all_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_from_hex_all_bytes() {$/;"	f
+test_from_hex_ignores_whitespace	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_from_hex_ignores_whitespace() {$/;"	f
+test_from_hex_invalid_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_from_hex_invalid_char() {$/;"	f
+test_from_hex_odd_len	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_from_hex_odd_len() {$/;"	f
+test_from_hex_okay	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_from_hex_okay() {$/;"	f
+test_from_str_trait	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_from_str_trait() {$/;"	f
+test_gen_ascii_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_ascii_str() {$/;"	f
+test_gen_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_f64() {$/;"	f
+test_gen_range	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_range() {$/;"	f
+test_gen_range_panic_int	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_range_panic_int() {$/;"	f
+test_gen_range_panic_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_range_panic_usize() {$/;"	f
+test_gen_vec	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_vec() {$/;"	f
+test_gen_weighted_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_gen_weighted_bool() {$/;"	f
+test_hashmap_with_enum_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_hashmap_with_enum_key() {$/;"	f
+test_hashmap_with_numeric_key_can_handle_double_quote_delimited_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_hashmap_with_numeric_key_can_handle_double_quote_delimited_key() {$/;"	f
+test_hashmap_with_numeric_key_will_error_with_string_keys	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_hashmap_with_numeric_key_will_error_with_string_keys() {$/;"	f
+test_index	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_index(){$/;"	f
+test_integers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn test_integers() {$/;"	f
+test_is_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_array(){$/;"	f
+test_is_boolean	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_boolean(){$/;"	f
+test_is_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_f64(){$/;"	f
+test_is_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_i64(){$/;"	f
+test_is_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_null(){$/;"	f
+test_is_number	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_number(){$/;"	f
+test_is_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_object(){$/;"	f
+test_is_string	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_string(){$/;"	f
+test_is_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_is_u64(){$/;"	f
+test_log_normal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn test_log_normal() {$/;"	f
+test_log_normal_invalid_sd	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn test_log_normal_invalid_sd() {$/;"	f
+test_multiline_errors	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_multiline_errors() {$/;"	f
+test_negative_zero	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_negative_zero() {$/;"	f
+test_normal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn test_normal() {$/;"	f
+test_normal_invalid_sd	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^    fn test_normal_invalid_sd() {$/;"	f
+test_os_rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn test_os_rng() {$/;"	f
+test_os_rng_tasks	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/os.rs	/^    fn test_os_rng_tasks() {$/;"	f
+test_prettyencode_hashmap_with_numeric_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_prettyencode_hashmap_with_numeric_key() {$/;"	f
+test_prettyencoder_indent_level_param	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_prettyencoder_indent_level_param() {$/;"	f
+test_rand_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_rand_sample() {$/;"	f
+test_random	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_random() {$/;"	f
+test_range_bad_limits_equal	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn test_range_bad_limits_equal() {$/;"	f
+test_range_bad_limits_flipped	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^    fn test_range_bad_limits_flipped() {$/;"	f
+test_read_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_array() {$/;"	f
+test_read_array_streaming	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_array_streaming() {$/;"	f
+test_read_identifiers	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_identifiers() {$/;"	f
+test_read_identifiers_streaming	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_identifiers_streaming() {$/;"	f
+test_read_number	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_number() {$/;"	f
+test_read_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_object() {$/;"	f
+test_read_object_streaming	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_object_streaming() {$/;"	f
+test_read_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_read_str() {$/;"	f
+test_reader_rng_fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn test_reader_rng_fill_bytes() {$/;"	f
+test_reader_rng_insufficient_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn test_reader_rng_insufficient_bytes() {$/;"	f
+test_reader_rng_u32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn test_reader_rng_u32() {$/;"	f
+test_reader_rng_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/read.rs	/^    fn test_reader_rng_u64() {$/;"	f
+test_reseeding	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn test_reseeding() {$/;"	f
+test_rng_32_rand_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_32_rand_seeded() {$/;"	f
+test_rng_32_reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_32_reseed() {$/;"	f
+test_rng_32_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_32_seeded() {$/;"	f
+test_rng_32_true_values	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_32_true_values() {$/;"	f
+test_rng_64_rand_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_64_rand_seeded() {$/;"	f
+test_rng_64_reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_64_reseed() {$/;"	f
+test_rng_64_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_64_seeded() {$/;"	f
+test_rng_64_true_values	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_64_true_values() {$/;"	f
+test_rng_clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn test_rng_clone() {$/;"	f
+test_rng_clone	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/isaac.rs	/^    fn test_rng_clone() {$/;"	f
+test_rng_fill_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn test_rng_fill_bytes() {$/;"	f
+test_rng_rand_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn test_rng_rand_seeded() {$/;"	f
+test_rng_reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn test_rng_reseed() {$/;"	f
+test_rng_reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn test_rng_reseed() {$/;"	f
+test_rng_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn test_rng_seeded() {$/;"	f
+test_rng_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/reseeding.rs	/^    fn test_rng_seeded() {$/;"	f
+test_rng_trait_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_rng_trait_object() {$/;"	f
+test_rng_true_values	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn test_rng_true_values() {$/;"	f
+test_sample	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_sample() {$/;"	f
+test_search	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_search(){$/;"	f
+test_shuffle	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_shuffle() {$/;"	f
+test_stack	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_stack() {$/;"	f
+test_std_rng_reseed	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_std_rng_reseed() {$/;"	f
+test_std_rng_seeded	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_std_rng_seeded() {$/;"	f
+test_streaming_parser	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_streaming_parser() {$/;"	f
+test_suggest	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/suggestions.rs	/^macro_rules! test_suggest($/;"	d
+test_t	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/gamma.rs	/^    fn test_t() {$/;"	f
+test_thread_rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^    fn test_thread_rng() {$/;"	f
+test_to_base64_basic	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_basic() {$/;"	f
+test_to_base64_crlf_line_break	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_crlf_line_break() {$/;"	f
+test_to_base64_empty_line_length	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_empty_line_length() {$/;"	f
+test_to_base64_lf_line_break	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_lf_line_break() {$/;"	f
+test_to_base64_padding	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_padding() {$/;"	f
+test_to_base64_url_safe	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn test_to_base64_url_safe() {$/;"	f
+test_to_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_to_hex() {$/;"	f
+test_to_hex_all_bytes	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    pub fn test_to_hex_all_bytes() {$/;"	f
+test_to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_to_json() {$/;"	f
+test_trailing_characters	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_trailing_characters() {$/;"	f
+test_trailing_characters_streaming	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_trailing_characters_streaming() {$/;"	f
+test_unexpected_token	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_unexpected_token() {$/;"	f
+test_user_error	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/test/mod.rs	/^macro_rules! test_user_error($/;"	d
+test_weighted_choice	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_choice() {$/;"	f
+test_weighted_choice_no_items	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_choice_no_items() {$/;"	f
+test_weighted_choice_weight_overflows	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_choice_weight_overflows() {$/;"	f
+test_weighted_choice_zero_weight	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_choice_zero_weight() {$/;"	f
+test_weighted_clone_change_item	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_clone_change_item() {$/;"	f
+test_weighted_clone_change_weight	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_clone_change_weight() {$/;"	f
+test_weighted_clone_initialization	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^    fn test_weighted_clone_initialization() {$/;"	f
+test_write_array	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_array() {$/;"	f
+test_write_bool	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_bool() {$/;"	f
+test_write_char	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_char() {$/;"	f
+test_write_enum	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_enum() {$/;"	f
+test_write_f64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_f64() {$/;"	f
+test_write_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_i64() {$/;"	f
+test_write_none	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_none() {$/;"	f
+test_write_null	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_null() {$/;"	f
+test_write_object	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_object() {$/;"	f
+test_write_some	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_some() {$/;"	f
+test_write_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn test_write_str() {$/;"	f
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/range.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^mod tests {$/;"	m
+tests	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^mod tests {$/;"	m
+thread_rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub fn thread_rng() -> ThreadRng {$/;"	f
+to_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn to_base64(&self, config: Config) -> String {$/;"	f
+to_base64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/base64.rs	/^    fn to_base64(&self, config: Config) -> String;$/;"	f
+to_float	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn to_float(&mut self, expect: &str) -> Result<f64, Error> {$/;"	f
+to_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn to_hex(&self) -> String {$/;"	f
+to_hex	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/hex.rs	/^    fn to_hex(&self) -> String;$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^            fn to_json(&self) -> Json { Json::I64(*self as i64) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^            fn to_json(&self) -> Json { Json::U64(*self as u64) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^            fn to_json(&self) -> Json {$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { (*self as f64).to_json() }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { Json::Array(self.iter().map(|elt| elt.to_json()).collect()) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { Json::Boolean(*self) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { Json::Null }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { Json::String((*self).clone()) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { Json::String(self.to_string()) }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json { self.clone() }$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json {$/;"	f
+to_json	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn to_json(&self) -> Json;$/;"	f
+to_json_impl_i64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! to_json_impl_i64 {$/;"	d
+to_json_impl_u64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! to_json_impl_u64 {$/;"	d
+to_lowercase	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^fn to_lowercase<S: Into<String>>(s: S) -> String {$/;"	f
+to_number	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    fn to_number<T>(&mut self, expect: &str) -> Result<T, Error>$/;"	f
+token_from	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn token_from(&self, state: &MState) -> Option<&ArgvToken> {$/;"	f
+top	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    pub fn top<'l>(&'l self) -> Option<StackElement<'l>> {$/;"	f
+try_or_invalid	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^                            macro_rules! try_or_invalid {$/;"	d
+tuple	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/serialize.rs	/^macro_rules! tuple {$/;"	d
+tuple_impl	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/rand_impls.rs	/^macro_rules! tuple_impl {$/;"	d
+tuple_impl	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^macro_rules! tuple_impl {$/;"	d
+type_as_usize	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn type_as_usize(&self) -> usize {$/;"	f
+update	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/chacha.rs	/^    fn update(&mut self) {$/;"	f
+use_flag	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn use_flag(&mut self, flag: &Atom) -> bool {$/;"	f
+use_optional_flag	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/parse.rs	/^    fn use_optional_flag(&mut self, flag: &Atom) {$/;"	f
+version	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/dopt.rs	/^    pub fn version(mut self, version: Option<String>) -> Docopt {$/;"	f
+w32	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^type w32 = w<u32>;$/;"	T
+w64	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^type w64 = w<u64>;$/;"	T
+weak_rng	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/lib.rs	/^pub fn weak_rng() -> XorShiftRng {$/;"	f
+werr	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/lib.rs	/^macro_rules! werr($/;"	d
+werr	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/wordlist.rs	/^macro_rules! werr($/;"	d
+with_key	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/docopt-0.7.0/src/synonym.rs	/^    fn with_key<T, F>(&self, k: &K, with: F) -> T where F: FnOnce(&K) -> T {$/;"	f
+write_str	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/json.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+zero_case	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/exponential.rs	/^        fn zero_case<R:Rng>(rng: &mut R, _u: f64) -> f64 {$/;"	f
+zero_case	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/normal.rs	/^        fn zero_case<R:Rng>(rng: &mut R, u: f64) -> f64 {$/;"	f
+ziggurat	/home/pengowen/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.15/src/distributions/mod.rs	/^fn ziggurat<R: Rng, P, Z>($/;"	f

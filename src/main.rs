@@ -12,13 +12,13 @@ const USAGE: &'static str = "
 Generate XKCD style passwords.
 
 Usage:
-  xkcdpass [options] [-w <list>...]
+  xkcdpass [options] [-c <count>] [-w <list>...]
 
 Options:
-  -h --help                 Show this screen.
-  -v --version              Show version.
-  -c <count>                Number of words [default: 4].
-  -w --use-wordlists <list>
+  -h --help                  Show this screen.
+  -v --version               Show version.
+  -c <count>                 Number of words [default: 4].
+  -w --use-wordlists <list>  Wordlist to use.
 ";
 
 static DEFAULT_WORDLIST: &'static str = include_str!("wordlist.txt");
@@ -37,35 +37,20 @@ fn load_wordlist(path: String) -> io::Result<String> {
     Ok(string)
 }
 
-fn load_wordlists(paths: Vec<String>) -> io::Result<String> {
-    let mut size = 0;
-    let wordlists = paths.into_iter()
-        .map(|p| {
-            let list = load_wordlist(p);
-            if let Ok(ref s) = list {
-                size += s.len();
-            }
-            list
-        })
-        .collect::<Result<Vec<_>, _>>()?;
-
-    let mut string = String::with_capacity(size);
-
-    for list in wordlists {
-        string.push_str(&list);
-    }
-
-    Ok(string)
+fn load_wordlists(paths: Vec<String>) -> io::Result<Vec<String>> {
+    paths.into_iter()
+        .map(|p| load_wordlist(p))
+        .collect::<Result<Vec<_>, _>>()
 }
 
-fn get_random_word(list: &str, offset: usize) -> &str {
+fn get_random_word<'a>(lines: &[&'a str], max_offset: usize) -> &'a str {
     let mut rng = rand::os::OsRng::new().unwrap_or_else(|e| {
         println!("Could not initialize random number generator: {}", e);
         process::exit(1);
     });
-    let between = Range::new(0, offset);
+    let between = Range::new(0, max_offset);
     let offset = between.ind_sample(&mut rng);
-    list.lines().nth(offset).expect(&format!("Invalid offset: {}", offset))
+    lines.get(offset).expect(&format!("Invalid offset: {}", offset))
 }
 
 fn main() {
@@ -73,22 +58,28 @@ fn main() {
         .and_then(|d| d.decode())
         .unwrap_or_else(|e| e.exit());
 
-    let list = if let Some(lists) = args.flag_w {
-        match load_wordlists(lists) {
-            Ok(l) => l,
-            Err(e) => {
-                println!("{}", e);
-                process::exit(1);
-            }
-        }
+    let lists = if let Some(lists) = args.flag_w {
+        load_wordlists(lists).unwrap_or_else(|e| {
+            println!("{}", e);
+            process::exit(1);
+        })
     } else {
-        DEFAULT_WORDLIST.to_string()
+        vec![DEFAULT_WORDLIST.to_string()]
     };
-    let offset = list.trim().chars().filter(|c| *c as u32 == 0x0a).count();
+    let lines = lists.iter().flat_map(|l| l.lines()).collect::<Vec<_>>();
+
+    let max_offset = lists.iter()
+        .map(|l| {
+            l.trim()
+                .chars()
+                .filter(|c| *c as u32 == 0x0a)
+                .count()
+        })
+        .sum();
 
     let count = args.flag_c;
     for _ in 1..count {
-        print!("{} ", get_random_word(&list, offset));
+        print!("{} ", get_random_word(&lines, max_offset));
     }
-    println!("{}", get_random_word(&list, offset));
+    println!("{}", get_random_word(&lines, max_offset));
 }
