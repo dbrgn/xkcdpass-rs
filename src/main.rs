@@ -12,7 +12,7 @@ const USAGE: &'static str = "
 Generate XKCD style passwords.
 
 Usage:
-  xkcdpass [-c <count>] [-w <list>...]
+  xkcdpass [options] [-w <list>...]
 
 Options:
   -h --help                 Show this screen.
