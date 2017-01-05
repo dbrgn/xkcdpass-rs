@@ -33,6 +33,12 @@ Install via cargo...
 By default, this program uses the "Long" wordlist by EFF:
 https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
 
+Alternatively, you can provide your own wordlist(s):
+
+    $ xkcdpass -w wordlist1.txt -w wordlist2.txt
+
+When providing multiple wordlists, they are concatenated.
+
 ## License
 
 Licensed under either of
