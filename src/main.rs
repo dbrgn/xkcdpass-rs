@@ -67,6 +67,13 @@ fn main() {
         process::exit(0);
     }
 
+    // Validate count
+    if args.flag_c < 1 {
+        println!("Error: Word count must be greater than 0");
+        process::exit(1);
+    }
+
+    // Load wordlist(s)
     let lists = if let Some(lists) = args.flag_w {
         load_wordlists(lists).unwrap_or_else(|e| {
             println!("{}", e);
@@ -77,6 +84,7 @@ fn main() {
     };
     let lines = lists.iter().flat_map(|l| l.lines()).collect::<Vec<_>>();
 
+    // Get offset
     let max_offset = lists.iter()
         .map(|l| {
             l.trim()
@@ -86,6 +94,7 @@ fn main() {
         })
         .sum();
 
+    // Print words
     let count = args.flag_c;
     for _ in 1..count {
         print!("{} ", get_random_word(&lines, max_offset));
