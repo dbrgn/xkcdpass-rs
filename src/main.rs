@@ -51,7 +51,7 @@ fn get_random_word<'a>(lines: &[&'a str], max_offset: usize) -> &'a str {
         println!("Could not initialize random number generator: {}", e);
         process::exit(1);
     });
-    let between = Range::new(0, max_offset);
+    let between = Range::new(0, max_offset + 1);
     let offset = between.ind_sample(&mut rng);
     lines.get(offset).expect(&format!("Invalid offset: {}", offset))
 }
