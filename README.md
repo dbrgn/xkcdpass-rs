@@ -3,10 +3,11 @@
 [![Crates.io][crates-io-badge]][crates-io]
 
 Generate passwords made up by four (or any other number of) random words from a
-word list (9903 common English words).
+word list (7776 common English words).
 
-With the default of 4 words, there are 9903^4 = 9617608981609281 possible word
-combinations, which corresponds to about 53 bits of entropy.
+With the default of 4 words, there are 7776^4 = 3656158440062976 possible word
+combinations, which corresponds to about 51 bits of entropy. When using 6
+words, the entropy is increased to about 77 bit.
 
 https://xkcd.com/936/
 
@@ -29,8 +30,8 @@ Install via cargo...
 
 ## Word List
 
-Word list is `google-10000-english-usa-no-swears.txt` taken from
-https://github.com/first20hours/google-10000-english.
+By default, this program uses the "Long" wordlist by EFF:
+https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
 
 ## License
 
