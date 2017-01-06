@@ -19,7 +19,7 @@ Usage:
 Options:
   -h --help                  Show this screen.
   -v --version               Show version.
-  -c <count>                 Number of words [default: 4].
+  -c --count <count>         Number of words [default: 4].
   -w --use-wordlists <list>  Wordlist to use.
 ";
 
