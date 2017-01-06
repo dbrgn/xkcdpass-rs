@@ -34,16 +34,28 @@ struct Args {
 
 fn load_wordlist(path: String) -> io::Result<String> {
     let path = path::Path::new(&path);
-    let mut file = File::open(path)?;
-    let mut string = String::new();
-    file.read_to_string(&mut string)?;
-    Ok(string)
+    if path.exists() {
+        let mut file = File::open(path)?;
+        let mut string = String::new();
+        file.read_to_string(&mut string)?;
+        Ok(string)
+    } else {
+        println!("Error: wordlist '{}' can not be found. Skipping.", path.to_str().unwrap());
+        Ok(String::new())
+    }
 }
 
 fn load_wordlists(paths: Vec<String>) -> io::Result<Vec<String>> {
-    paths.into_iter()
+    let words = paths.into_iter()
         .map(|p| load_wordlist(p))
-        .collect::<Result<Vec<_>, _>>()
+        .collect::<Result<Vec<_>, _>>();
+    match words {
+        Ok(v) => Ok(v),
+        Err(_) => {
+            println!("Error: no wordlists were secsesfuly read. Reverting to default.");
+            Ok(vec![DEFAULT_WORDLIST.to_string()])
+        },
+    }
 }
 
 fn get_random_word<'a>(lines: &[&'a str], max_offset: usize) -> &'a str {
