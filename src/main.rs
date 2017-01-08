@@ -52,8 +52,8 @@ fn load_wordlists(paths: Vec<String>) -> io::Result<Vec<String>> {
     match words {
         Ok(v) => Ok(v),
         Err(_) => {
-            println!("Error: no wordlists were secsesfuly read. Reverting to default.");
-            Ok(vec![DEFAULT_WORDLIST.to_string()])
+            println!("Error: no wordlists were successfully read.");
+            process::exit(1);
         },
     }
 }
