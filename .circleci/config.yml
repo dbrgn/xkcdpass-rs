@@ -1,7 +1,6 @@
 version: 2
 
 references:
-
   steps: &steps
     - checkout
     # Load cargo target from cache if possible.
@@ -30,13 +29,18 @@ references:
           - /usr/local/cargo
 
 jobs:
-
   build-1.20:
     docker:
       - image: rust:1.20
     steps: *steps
-
   build-stable:
     docker:
-      - image: rust:lattst
+      - image: rust:latest
     steps: *steps
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build-1.20
+      - build-stable
