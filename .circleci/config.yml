@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: rust:1.20
       - image: rust:latest
+    parallelism: 2
     steps:
       - checkout
       # Load cargo target from cache if possible.
