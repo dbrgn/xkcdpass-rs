@@ -1,6 +1,7 @@
 # xkcdpass - XKCD Style Password Generator
 
 [![Crates.io][crates-io-badge]][crates-io]
+[![CircleCI][circle-ci-badge]][circle-ci]
 
 Generate passwords made up by four (or any other number of) random words from a
 word list (7776 common English words).
@@ -51,3 +52,5 @@ Licensed under either of
 <!-- Badges -->
 [crates-io]: https://crates.io/crates/xkcdpass
 [crates-io-badge]: https://img.shields.io/crates/v/xkcdpass.svg
+[circle-ci]: https://circleci.com/gh/dbrgn/xkcdpass-rs/tree/master
+[circle-ci-badge]: https://circleci.com/gh/dbrgn/xkcdpass-rs/tree/master.svg?style=shield
