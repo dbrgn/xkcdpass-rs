@@ -1,6 +1,7 @@
 extern crate docopt;
 extern crate rand;
-extern crate rustc_serialize;
+#[macro_use]
+extern crate serde_derive;
 
 use std::{process, io, path};
 use std::fs::File;
@@ -25,7 +26,7 @@ Options:
 
 static DEFAULT_WORDLIST: &'static str = include_str!("wordlist.txt");
 
-#[derive(Debug, RustcDecodable)]
+#[derive(Debug, Deserialize)]
 struct Args {
     flag_c: usize,
     flag_w: Option<Vec<String>>,
@@ -58,7 +59,7 @@ fn get_random_word<'a>(lines: &[&'a str], max_offset: usize) -> &'a str {
 
 fn main() {
     let args: Args = Docopt::new(USAGE)
-        .and_then(|d| d.decode())
+        .and_then(|d| d.deserialize())
         .unwrap_or_else(|e| e.exit());
 
     // Show version and exit
