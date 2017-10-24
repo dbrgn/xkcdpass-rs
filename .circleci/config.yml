@@ -1,27 +1,42 @@
 version: 2
+
+references:
+
+  steps: &steps
+    - checkout
+    # Load cargo target from cache if possible.
+    # Multiple caches are used to increase the chance of a cache hit.
+    - restore_cache:
+        keys:
+          - v1-cargo-cache-{{ arch }}-{{ checksum "Cargo.lock" }}
+          - v1-cargo-cache-{{ arch }}-{{ .Branch }}
+          - v1-cargo-cache-{{ arch }}
+    - run: cargo build && cargo test
+    - run: cargo install cargo-audit && cargo audit
+    - save_cache:
+        key: v1-cargo-cache-{{ arch }}{{ checksum "Cargo.lock" }}
+        paths:
+          - target
+          - /usr/local/cargo
+    - save_cache:
+        key: v1-cargo-cache-{{ arch }}-{{ .Branch }}
+        paths:
+          - target
+          - /usr/local/cargo
+    - save_cache:
+        key: v1-cargo-cache-{{ arch }}
+        paths:
+          - target
+          - /usr/local/cargo
+
 jobs:
-  build:
+
+  build-1.20:
     docker:
       - image: rust:1.20
-      - image: rust:latest
-    parallelism: 2
-    steps:
-      - checkout
-      # Load cargo target from cache if possible.
-      # Multiple caches are used to increase the chance of a cache hit.
-      - restore_cache:
-          keys:
-            - v1-cargo-cache-{{ arch }}-{{ .Branch }}
-            - v1-cargo-cache-{{ arch }}
-      - run: cargo build && cargo test
-      - run: cargo install cargo-audit && cargo audit
-      - save_cache:
-          key: v1-cargo-cache-{{ arch }}-{{ .Branch }}
-          paths:
-            - target
-            - /usr/local/cargo
-      - save_cache:
-          key: v1-cargo-cache-{{ arch }}
-          paths:
-            - target
-            - /usr/local/cargo
+    steps: *steps
+
+  build-stable:
+    docker:
+      - image: rust:lattst
+    steps: *steps
