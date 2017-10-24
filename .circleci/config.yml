@@ -1,7 +1,7 @@
 version: 2
 
 references:
-  steps: &steps
+  build-steps: &build-steps
     - checkout
     # Load cargo target from cache if possible.
     # Multiple caches are used to increase the chance of a cache hit.
@@ -11,7 +11,6 @@ references:
           - v1-cargo-cache-{{ arch }}-{{ .Branch }}
           - v1-cargo-cache-{{ arch }}
     - run: cargo build && cargo test
-    - run: cargo install cargo-audit && cargo audit
     - save_cache:
         key: v1-cargo-cache-{{ arch }}{{ checksum "Cargo.lock" }}
         paths:
@@ -32,11 +31,17 @@ jobs:
   build-1.20:
     docker:
       - image: rust:1.20
-    steps: *steps
+    steps: *build-steps
   build-stable:
     docker:
       - image: rust:latest
-    steps: *steps
+    steps: *build-steps
+  audit:
+    docker:
+      - image: saltyrtc/circleci-image-rs:latest
+    steps:
+      - checkout
+      - run: cargo audit
 
 workflows:
   version: 2
@@ -44,3 +49,4 @@ workflows:
     jobs:
       - build-1.20
       - build-stable
+      - audit
